@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@nmp-js/huck": "*"
+  },
+  "devDependencies": {
+    "vite": "*"
+  }
+}
