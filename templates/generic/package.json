@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "huck-dev",
+    "start": "huck",
+    "build": "vite build"
+  }
+}
