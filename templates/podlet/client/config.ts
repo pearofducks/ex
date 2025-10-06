@@ -3,6 +3,7 @@ import { createContext } from '@lit/context'
 import { property, state } from 'lit/decorators.js'
 import { provide, consume } from '@lit/context'
 import { getConfigFromString } from '@nmp-js/huck/client'
+import type { Config } from '../types.d.ts'
 
 export const configContext = createContext<Config>('config')
 

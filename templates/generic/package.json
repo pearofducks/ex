@@ -1,7 +1,14 @@
 {
+  "version": "x.x.x",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "huck-dev",
     "start": "huck",
     "build": "vite build"
-  }
+  },
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": "24"
+  },
 }
