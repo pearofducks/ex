@@ -2,6 +2,8 @@ This file contains templates for bootstrapping 'huck'.
 
 ## Rules
 
+- Copy the `templates/generic/.npmrc` file into the user's working directory first
+- Never change the `version` field in `package.json`
 - All paths and files are in the `templates` folder
 - Always copy the files/folders into the users working directory from `generic`
 - Never copy `package.json` files into the users working directory.
