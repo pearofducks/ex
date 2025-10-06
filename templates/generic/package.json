@@ -11,4 +11,11 @@
   "engines": {
     "node": "24"
   },
+  "eik": {
+    "server": "https://assets.finn.no",
+    "files": "./dist",
+    "import-map": [
+      "https://assets.finn.no/map/tracking/v1"
+    ]
+  },
 }

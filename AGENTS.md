@@ -3,7 +3,6 @@ This file contains templates for bootstrapping 'huck'.
 ## Rules
 
 - Copy the `templates/generic/.npmrc` file into the user's working directory first
-- Never change the `version` field in `package.json`
 - All paths and files are in the `templates` folder
 - Always copy the files/folders into the users working directory from `generic`
 - Never copy `package.json` files into the users working directory.
@@ -13,4 +12,5 @@ This file contains templates for bootstrapping 'huck'.
     - Extra dependencies found in config and client files should be installed with their latest versions as `devDependencies`
 - If the user has asked for a 'podlet', copy the files from the `podlet` folder.
 - Set the `packageManager` field in `package.json` to the latest version of `pnpm`
+- The `version` field in `package.json` should be `x.x.x` when you're finished, if it's anything else, fix it
 - Do not do extra work, only focus on the tasks listed here
